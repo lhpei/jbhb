@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鹤壁金波环保工程有限公司</title>
+    <link rel="stylesheet" href="./css/reset.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+</head>
+
+<body>
+    <nav>
+        <h2 class="navbox">鹤壁金波环保工程有限公司</h2>
+        <ul class="navul">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="javascript:">关于金波</a></li>
+            <li><a href="javascript:">行业咨询</a></li>
+            <li><a href="javascript:">产品介绍</a></li>
+            <li><a href="javascript:">成功案例</a></li>
+            <li><a href="javascript:">业务范围</a></li>
+        </ul>
+    </nav>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./img/swiper1.jpg" alt="金波环保"></div>
+            <div class="swiper-slide"><img src="./img/swier2.png" alt="金波环保"></div>
+            <div class="swiper-slide"><img src="./img/swiper3.png" alt="金波环保"></div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+    </div>
+    <main>
+        刘丽红
+    </main>
+    
+    <footer>
+        <div class="dibu main">
+            <ul>
+                <li>预约维修服务</li>
+                <li>免费咨询</li>
+                <li>上门服务</li>
+            </ul>
+
+        </div>
+        <div class="ppd main">
+            <ul>
+                <a href=""></a>
+                <li>帮助中心</li>
+                <li>账户管理</li>
+                <li>账户管理</li>
+                <li>账户管理</li>
+            </ul>
+
+        </div>
+        <div class="right_">
+            <p class="phone">13613922890</p>
+            <p>
+                周一至周日 8:00-18:00<br>（仅收市话费）
+            </p>
+            <a href="">联系客服</a>
+        </div>
+    </footer>
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            effect: 'cube',
+            // direction: 'vertical', // 垂直切换选项
+            loop: true, // 循环模式选项
+
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            // 如果需要前进后退按钮
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            autoplay: true,
+        })  
+    </script>
+</body>
+
+</html>
